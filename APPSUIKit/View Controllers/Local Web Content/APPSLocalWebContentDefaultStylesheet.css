@@ -1,0 +1,144 @@
+body {
+    padding: 1px 10px;
+}
+
+h1 {
+    font-family: "HelveticaNeue-Bold";
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+
+
+h2 {
+    font-family: "HelveticaNeue-Bold";
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+
+h3 {
+    font-family: "HelveticaNeue-Bold";
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: "HelveticaNeue";
+    font-size: 14px;
+    line-height: 17px;
+    color: #454547;
+}
+
+address {
+    font-family: "HelveticaNeue";
+    font-size: 14px;
+    line-height: 17px;
+    color: #454547;
+}
+
+
+dd {
+    font-family: "HelveticaNeue";
+    font-size: 14px;
+    line-height: 17px;
+    color: #454547;margin:6px 12px 24px;}
+
+dt {
+    font-family: "HelveticaNeue";
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;font-weight: bold;
+}
+
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+}
+
+sub { top: 0.4em; }
+
+ul, ol {
+    margin: 0;
+    padding: 0 0 0 24px;
+}
+
+ul li {
+    font-family: "HelveticaNeue";
+    font-size: 14px;
+    line-height: 17px;
+    list-style-type: square;
+    list-style-position: outside;
+    padding: 0 0 12px 0;
+    color: #454547;
+    
+}
+
+ol li {
+    font-family: "HelveticaNeue";
+    font-size: 14px;
+    line-height: 17px;
+    list-style-type: decimal;
+    list-style-position: outside;
+    padding: 0 0 12px 0;
+    color: #454547;
+    
+}
+
+a:link {
+    color: #950031;
+}
+
+
+video {
+    width:100%;
+    max-width:500px;
+    height:auto;
+    border-style:solid;
+    border-color:#d9d9d9;
+    border-width:1px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#efeff4;
+}
+
+.url {word-wrap: break-word;}
+
+.legal h1,
+.legal h2,
+.legal h3,
+.legal ul,
+.legal ol,
+.legal li,
+.legal p,
+.legal address {
+    font-size: 10pt;
+}
+
+.legal address {
+    font-style: normal;
+    margin-left: 36pt;
+}
+
+
+
+.legal .strong {
+    font-weight: bold;
+}
+
+.legal .emphasis {
+    font-style: italic;
+}
+
+.legal .underscore {
+    text-decoration: underline;
+}
+
+
+/* to fix the whitespace issue, look to
+ http://stackoverflow.com/questions/18947872/ios7-added-new-whitespace-in-uiwebview-removing-uiwebview-whitespace-in-ios7
+ 
+ */

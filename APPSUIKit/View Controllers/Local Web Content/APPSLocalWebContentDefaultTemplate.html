@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0" />
+        <title>test.html</title>
+        <style>
+            {STYLESHEET_CONTENT}
+        </style>
+        
+        <script>
+            if (!{SCROLLING_ENABLED}) {
+                <!-- Prevent any scrolling in of the UIWebView we'll be sitting in -->
+                document.ontouchmove = function (event) {
+                    event.preventDefault();
+                }
+            }
+        </script>
+    </head>
+    <body>
+    {BODY_CONTENT}
+    </body>
+</html>
