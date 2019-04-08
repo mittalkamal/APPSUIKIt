@@ -18,7 +18,7 @@ extension UITableView {
      navController.modalPresentationStyle = UIModalPresentationOverCurrentContext; // allow background to show through
      navController.modalPresentationCapturesStatusBarAppearance = YES;  // Allow nav controller to set status bar to dark text
      */
-    open func applyBlurEffect(style: UIBlurEffectStyle) {
+    open func applyBlurEffect(style: UIBlurEffect.Style) {
         // Credit: http://belka.us/en/modal-uiviewcontroller-blur-background-swift/
 
         backgroundColor = UIColor.clear
