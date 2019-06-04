@@ -821,6 +821,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 4E24AB6A1E1EF7CA00E10C78;
@@ -1062,7 +1063,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.appstronomy.APPSUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1086,7 +1087,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.appstronomy.APPSUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

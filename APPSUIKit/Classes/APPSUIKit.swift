@@ -17,7 +17,7 @@ open class APPSUIKit: NSObject {
     /**
      @return A reference to the bundle for this Appstronomy UIKit framework.
      */
-    @objc open static var bundle: Bundle {
+    @objc public static var bundle: Bundle {
         return Bundle(for: self)
     }
 }
